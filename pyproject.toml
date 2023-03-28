@@ -6,8 +6,15 @@ authors = ["Piotr Yordanov <48773775+piotryordanov@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+matplotlib = "^3.7.1"
+yfinance = "^0.2.14"
+mplfinance = "^0.12.9-beta.7"
+ipykernel = "^6.22.0"
+TA-Lib = "^0.4.25"
+python-binance = "^1.0.17"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.22.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
